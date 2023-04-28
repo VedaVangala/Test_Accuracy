@@ -1,0 +1,13 @@
+Package: Accuracy
+Title: Determination of Diagnostic Test Accuracy
+Version: 0.1.0
+Date: 2023-04-27
+Authors@R: person("Veda", "Developer", role = c("aut", "cre"),
+                     email = "vedar@some.domain.net")
+Author: Veda Developer [aut, cre]
+Maintainer: Veda Developer <vedar@some.domain.net>
+Description: This package provides analytical functions to find the accuracy of the diagnostic tests which will enable clinician to choose better diagnostic test according to particular patient.
+License: GPL-3
+LazyData: true
+RoxygenNote: 7.2.3
+Encoding: UTF-8
