@@ -7,23 +7,23 @@ It includes code of functions Test_Ability(), lr_plus(), lr_minus(), youden(), p
 
 
 
-Test_Ability() function enables the medical practitioner to find the Sensitivity, Specificity, Positive Predictive Value(PPV) and Negative Predictive Value(NPV) of a particular diagnostic test upon input of the values(True Positives, False Positives, True Negatives and False Negatives).
+**Test_Ability()** function enables the medical practitioner to find the Sensitivity, Specificity, Positive Predictive Value(PPV) and Negative Predictive Value(NPV) of a particular diagnostic test upon input of the values(True Positives, False Positives, True Negatives and False Negatives).
 
-lr_plus()function computes the positive likelihood ratio of the diagnostic test when values of sensitivity and Specificity are given as input.
+**lr_plus()** function computes the positive likelihood ratio of the diagnostic test when values of sensitivity and Specificity are given as input.
 
-lr_minus()function validates the negative likelihood ratio of the diagnostic test when values of sensitivity and Specificity are given as input.
+**lr_minus()** function validates the negative likelihood ratio of the diagnostic test when values of sensitivity and Specificity are given as input.
 
-youden() function gives the Youden's Index when sensitivity and Specificity are given as input.
+**youden()** function gives the Youden's Index when sensitivity and Specificity are given as input.
 
-precision()permits to find of accurate forecasts along with recall
+**precision()** permits to find of accurate forecasts along with recall
 
-recall() function when implemented gives a positive outcome proportion compared to all possible positive cases
+**recall()** function when implemented gives a positive outcome proportion compared to all possible positive cases
 
-pie_chart()allows finding which is the maximum of the input values which constitute a larger portion of all values and permits to come to a conclusion about the diagnostic test based on the requirements of medical practitioner.
+**pie_chart()** allows finding which is the maximum of the input values which constitute a larger portion of all values and permits to come to a conclusion about the diagnostic test based on the requirements of medical practitioner.
 
 
 
-**Installation to my package**
+***Installation to my package:***
 
 
 intsall.packages("devtools")
@@ -35,7 +35,7 @@ devtools::install_github(https://github.com/VedaVangala/Test_Accuracy)
 [Accuracy Blog link] (https://vedanagapriya.blogspot.com/2023/04/package-accuracy.html)
 
 
-**References**
+***References***::
 
 Wickham, H. (2015). R Packages. (Chapter 7)
 
